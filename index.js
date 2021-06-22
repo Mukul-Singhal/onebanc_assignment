@@ -19,7 +19,7 @@ let direction = {
 const output = document.getElementById("output");
 
 const url =
-  "http://dev.onebanc.ai/assignment.asmx/GetTransactionHistory?userId=1&recipientId=2";
+  "https://dev.onebanc.ai/assignment.asmx/GetTransactionHistory?userId=1&recipientId=2";
 
 fetch(url)
   .then((response) => response.text())
